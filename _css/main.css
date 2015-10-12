@@ -1,1 +1,111 @@
-/* css */
+body {
+    padding:0px;
+    margin:0px;
+    background-color:black; /* This is a black background */
+}
+#page {
+    background-image:url(http://s3.amazonaws.com/rapgenius/1369893398_1419618-unicorn2.jpg);
+    background-size:1500px;
+    padding:60px 80px;
+}
+#header {
+    background-color:gray; /* This sets the background to gray */
+    padding:0px;
+    color:white;
+}
+h1 {
+    font-family:verdana;
+    font-size:60px;
+    padding:20px 40px;
+    margin:0px;
+}
+h2, h3 {
+    font-family:arial;
+}
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+/* navigation */
+
+#nav {
+    padding-left:40px;
+}
+#nav, #nav a {
+    background-color:#CCC;   /* This sets the background color to gray. Type That. This sets the set background color to gray. Don't type that. */
+    padding:10px;
+    
+}
+#nav a{
+    margin:0px;
+    padding-left:50px;
+    color:black;
+    font-family:arial;
+    text-decoration:none; /* This makes the underline gone */
+    transition:background-color 2s, color 2s;
+}
+#nav a:hover{
+    background-color:#AAAAFF; /* This sets the background color to purple */
+    color:white;
+    transition:color 2s, /* This fades in the color */
+}
+/* end navigation */
+#content {
+    padding:20px 40px;
+    margin:0px;
+    background-color:#EEE; /* This sets the background color to gray */
+}
+#footer {
+    padding:20px 40px;
+    background-color:black; /* This sets the background color to black */
+    color:white;
+    margin:0px;
+}
+#footer a{
+    text-decoration:none;
+}
+/*
+#header {
+    padding:20px;
+    width:400px;
+    background-color:gray;
+    color:pink;
+}
+#header:hover {
+    background-color:pink;
+    color:gray;
+    width:200px;
+    transition: width 2s, background-color 2s, color 2s;
+}
+#header:hover h2 {
+    font-family:elephant;
+    font-size:40px;
+    background-color:green;
+    padding:9px;
+    transition:background-color 2s, font-family 2s, font-size 2s;
+}
+#content {
+    width:400px;
+    padding:20px;
+    background-color:indigo;
+    color:turquoise;
+}
+#content:hover {
+    background-color:turquoise;
+    width:200px;
+    transition:width 2s, background-color 2s, color 2s;
+    color:indigo;
+}
+#footer {
+    width:400px;
+    padding:20px;
+    background-color:lightcoral;
+    color:tuquoise;
+}
+#footer:hover {
+    background-color:orange;
+    color:teal;
+    width:200px;
+    transition:width 2s, background-color 2s, color 2s;
+}
+*/
